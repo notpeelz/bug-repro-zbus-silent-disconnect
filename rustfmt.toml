@@ -1,0 +1,22 @@
+hard_tabs = false
+tab_spaces = 2
+max_width = 80
+match_block_trailing_comma = true
+# Force chained calls to wrap over multiple lines if it exceeds 50% of the max line width
+chain_width = 50
+reorder_imports = true
+
+# unstable features
+unstable_features = true
+wrap_comments = true
+comment_width = 80
+error_on_line_overflow = true
+error_on_unformatted = true
+format_code_in_doc_comments = true
+format_macro_bodies = true
+format_macro_matchers = true
+format_strings = true
+indent_style = "Block"
+trailing_comma = "Vertical"
+group_imports = "StdExternalCrate"
+imports_granularity = "Module"
